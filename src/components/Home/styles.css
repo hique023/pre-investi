@@ -1,0 +1,19 @@
+.containerHome {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contentHome {
+  margin: auto;
+  width: 1280px;
+  height: 1080px;
+  display: flex;
+  gap: 150px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}

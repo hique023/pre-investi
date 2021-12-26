@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
+import "./styles.css";
 
-export default function Inscricao() {
+export default function Finish() {
   return (
-    <div className="containerInscricao">
+    <div className="containerFinish">
       <h1>Inscricao</h1>
     </div>
   );

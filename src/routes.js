@@ -1,14 +1,14 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./components/Home";
-import Inscricao from "./components/Inscricao";
+import Finish from "./components/Finish";
 
 export default function Routers() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/inscricao" element={<Inscricao />} />
+        <Route exact path="/home" element={<Home />} />
+        <Route exact path="/finish" element={<Finish />} />
       </Routes>
     </BrowserRouter>
   );

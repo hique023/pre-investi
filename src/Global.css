@@ -4,3 +4,11 @@
   outline: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --green-soft: #00a711;
+  --white: #fff;
+  --black: rgb(0, 0, 0);
+  --background: #e5e5e5;
+  --background-form: #f0f0f5;
+}
