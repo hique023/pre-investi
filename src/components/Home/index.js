@@ -16,7 +16,7 @@ export default function Home() {
     <div className="containerHome">
       <div className="contentHome">
         <div className="leftHome">
-          <h3 id="preinscricao">pré inscrição</h3>
+          <h3 id="preinscricao">pré-inscrição</h3>
           <h1 id="investi">investi</h1>
           <h2 id="subtitle">te ajudando a investir melhor!</h2>
           <h3 id="message">
