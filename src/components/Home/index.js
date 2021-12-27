@@ -47,7 +47,7 @@ export default function Home() {
               />
 
               <button className="button" type="submit">
-                Realizar pré inscrição
+                Realizar pré-inscrição
               </button>
             </form>
           </div>
