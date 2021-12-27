@@ -1,15 +1,38 @@
+// Global
 import React, { useEffect, useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import firebase from "../../firebaseConfig.js";
+
+//Styles
 import "./styles.css";
 
 export default function Home() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
+  const navigate = useNavigate();
+  const db = firebase.firestore();
 
   function handleLogin(e) {
     e.preventDefault();
 
-    alert("Cadastro realizado com sucesso!");
+    console.log(name, email, phone);
+
+    db.collection("users")
+      .doc(email)
+      .set({
+        name: name,
+        email: email,
+        phone: phone,
+      })
+      .then((docRef) => {
+        alert(`Dados do usuário cadastrados com sucesso!`);
+        navigate("/finish");
+      })
+      .catch((error) => {
+        console.error("Error adding document: ", error);
+        alert("Erro ao cadastrar dados do usuário!");
+      });
   }
 
   return (
