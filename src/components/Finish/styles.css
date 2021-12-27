@@ -1,0 +1,89 @@
+.containerFinish {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerFinish #investi {
+  font-size: 100px;
+  color: var(--green-soft);
+}
+
+.containerFinish .contentFinish {
+  margin: auto;
+  width: 1280px;
+  height: 1080px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerFinish .contentFinish .principalFinish {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.containerFinish .contentFinish .principalFinish .leftFinish {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+}
+
+.containerFinish .contentFinish .principalFinish .leftFinish #subtitle {
+  font-size: 35px;
+}
+
+.containerFinish .contentFinish .principalFinish .leftFinish #subtitle .green {
+  color: var(--green-soft);
+}
+
+.containerFinish .contentFinish .principalFinish .leftFinish #message {
+  font-size: 20px;
+}
+
+.containerFinish .contentFinish .principalFinish .rightFinish {
+  padding: 25px 15px;
+  background-color: var(--background-form);
+  width: 450px;
+  border-radius: 10px;
+}
+
+.containerFinish .contentFinish .principalFinish .rightFinish .telegram {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--telegram);
+  border: 0;
+  border-radius: 8px;
+  color: var(--white);
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  transition: filter 0.2s;
+}
+
+.containerFinish .contentFinish .principalFinish .rightFinish .telegram .icon {
+  margin-left: 20px;
+}
+
+.telegram:hover {
+  filter: brightness(80%);
+}
+
+.containerFinish .contentFinish .principalFinish .rightFinish form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
