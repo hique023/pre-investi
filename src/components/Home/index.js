@@ -26,12 +26,14 @@ export default function Home() {
         phone: phone,
       })
       .then((docRef) => {
-        alert(`Dados do usuário cadastrados com sucesso!`);
+        // alert(`Dados do usuário cadastrados com sucesso!`);
         navigate("/finish");
       })
       .catch((error) => {
         console.error("Error adding document: ", error);
-        alert("Erro ao cadastrar dados do usuário!");
+        alert(
+          "Erro ao cadastrar dados, por gentileza, reinicie a página e tente novamente!"
+        );
       });
   }
 
@@ -64,7 +66,7 @@ export default function Home() {
               />
 
               <input
-                placeholder="Celular"
+                placeholder="WhatsApp"
                 value={phone}
                 onChange={(e) => setPhone(e.target.value)}
               />

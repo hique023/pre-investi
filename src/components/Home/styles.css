@@ -9,12 +9,14 @@
 
 .containerHome .contentHome {
   margin: auto;
-  width: 1280px;
-  height: 1080px;
+  width: 1150px;
+  height: 700px;
   display: flex;
   gap: 20px;
   align-items: center;
   justify-content: center;
+  background-color: var(--background-form);
+  border-radius: 10px;
 }
 
 .containerHome .contentHome .leftHome {
