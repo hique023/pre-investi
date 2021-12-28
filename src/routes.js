@@ -7,7 +7,7 @@ export default function Routers() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route exact path="/home" element={<Home />} />
+        <Route exact path="/" element={<Home />} />
         <Route exact path="/finish" element={<Finish />} />
       </Routes>
     </BrowserRouter>
