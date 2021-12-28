@@ -13,12 +13,13 @@ export default function Finish() {
               <span className="green">pré-inscrição</span> realizada com
               <span className="green"> sucesso! </span>Falta apenas
               <span className="green"> 1 passo</span> para
-              <span className="green"> confirmar</span> sua inscrição
+              <span className="green"> confirmar</span> sua inscrição. Entrar no
+              canal do Telegram!
             </h2>
           </div>
 
           <div className="rightFinish">
-            <h2>entre no grupo do Telegram clicando no botão abaixo</h2>
+            <h2>Clique no botão abaixo para entrar no canal do Telegram</h2>
             <a
               class="telegram"
               href="https://t.me/investiclass"
