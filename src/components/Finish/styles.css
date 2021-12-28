@@ -14,13 +14,15 @@
 
 .containerFinish .contentFinish {
   margin: auto;
-  width: 1280px;
-  height: 1080px;
+  width: 1080px;
+  height: 700px;
   display: flex;
   flex-direction: column;
   gap: 100px;
   align-items: center;
   justify-content: center;
+  background-color: var(--background-form);
+  border-radius: 10px;
 }
 
 .containerFinish .contentFinish .principalFinish {
@@ -51,9 +53,18 @@
 
 .containerFinish .contentFinish .principalFinish .rightFinish {
   padding: 25px 15px;
-  background-color: var(--background-form);
+  background-color: var(--white);
   width: 450px;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerFinish .contentFinish .principalFinish .rightFinish h2 {
+  margin-bottom: 20px;
+  align-items: center;
 }
 
 .containerFinish .contentFinish .principalFinish .rightFinish .telegram {
